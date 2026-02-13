@@ -1,5 +1,6 @@
 # Netlify configuration for image optimization and performance
 [build]
+  base = "bemyvalentine"
   command = "npm run build"
   publish = "dist"
 
